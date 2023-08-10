@@ -9,7 +9,7 @@ spec:
   selector:
     matchLabels:
       app.kubernetes.io/name: data-science-pipelines-operator
-  replicas: 1
+  replicas: 2
   template:
     metadata:
       annotations:
